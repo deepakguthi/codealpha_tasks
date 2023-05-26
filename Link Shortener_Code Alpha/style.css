@@ -1,0 +1,108 @@
+body {
+    font-family: verdana, sans-serif;
+    background: #51ea8e;
+
+    justify-content: center;
+    align-items: center;
+  }
+  html, body {
+    height: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  color: rgb(26, 49, 163);
+  background-color: #51ea8e;
+}
+
+
+
+  .content h1{
+    color:#fff;
+    text-align: center;
+  }
+  form label {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #494642;
+    text-align: center;
+    margin-top: 120px;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  form input[type="text"] {
+    width: 600px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  form button {
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-top: 14px;
+    align-self: center;
+  }
+  form button:hover{
+    background-color:rgb(223, 80, 80);
+  }
+  
+  #short-url-container {
+    margin-top: 20px;
+    padding-top: 100px;
+  }
+  #short-url-container p{
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+  }
+  
+  #short-url {
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  
+  #short-url a {
+    word-wrap: break-word;
+    margin-right: 10px;
+    color: #000;
+  }
+
+  .content
+  {
+    width:900px;
+    height:40px;
+    padding:40px;
+    border-radius: 20px;
+    background: rgb(207, 210, 231);
+    margin: auto;
+    padding-bottom: 330px;
+  }
+
+  #copy-btn{
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+
+  #copy-btn:hover{
+    background-color:rgb(223, 80, 80);
+  }
